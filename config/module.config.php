@@ -14,7 +14,7 @@ return [
                 'identity_class' => null,
                 'identity_property' => null,
                 'credential_property' => null,
-                'credential_callable' => VerifyCredential::class
+                'credential_callable' => 'MSBios\Authentication\Doctrine\Credential::verify'
             ],
         ],
     ],

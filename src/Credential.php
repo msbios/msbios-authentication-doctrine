@@ -9,17 +9,17 @@ use MSBios\Authentication\IdentityInterface;
 use Zend\Crypt\Password\Bcrypt;
 
 /**
- * Class VerifyCredential
+ * Class Credential
  * @package MSBios\Authentication\Doctrine
  */
-class VerifyCredential
+class Credential
 {
     /**
      * @param IdentityInterface $identity
      * @param $inputPassword
      * @return bool
      */
-    public static function __invoke(IdentityInterface $identity, $inputPassword)
+    public static function verify(IdentityInterface $identity, $inputPassword)
     {
         return (new Bcrypt)->verify($inputPassword, $identity->getPassword());
     }
