@@ -25,8 +25,4 @@ return [
                 Factory\AuthenticationServiceFactory::class
         ]
     ],
-
-    Module::class => [
-
-    ],
 ];
