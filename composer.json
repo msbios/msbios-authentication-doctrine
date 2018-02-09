@@ -1,7 +1,7 @@
 {
   "name": "msbios/authentication-doctrine",
   "description": "MSBios Authentication Doctrine",
-  "license": "GPL",
+  "license": "MIT",
   "keywords": [
     "php"
   ],
