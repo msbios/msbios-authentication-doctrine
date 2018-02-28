@@ -5,11 +5,11 @@
 
 namespace MSBios\Authentication\Doctrine;
 
+use MSBios\AutoloaderAwareInterface;
+use MSBios\ModuleAwareInterface;
 use MSBios\ModuleInterface;
-use Zend\Crypt\Password\Bcrypt;
 use Zend\Loader\AutoloaderFactory;
 use Zend\Loader\StandardAutoloader;
-use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
 
 /**
  * Class Module
@@ -17,10 +17,11 @@ use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
  */
 class Module implements
     ModuleInterface,
-    AutoloaderProviderInterface
+    ModuleAwareInterface,
+    AutoloaderAwareInterface
 {
     /** @const VERSION */
-    const VERSION = '1.0.3';
+    const VERSION = '1.0.4';
 
     /**
      * @return mixed

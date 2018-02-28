@@ -8,9 +8,25 @@
 return [
     // Retrieve list of modules used in this application.
     'modules' => [
+        'Zend\Mvc\Plugin\FilePrg',
+        'Zend\Mvc\Plugin\FlashMessenger',
+        'Zend\Mvc\Plugin\Identity',
+        'Zend\Mvc\Plugin\Prg',
+        'Zend\I18n',
+        'Zend\Session',
+        'Zend\Navigation',
         'Zend\Router',
+
         'DoctrineModule',
         'DoctrineORMModule',
+
+        'MSBios\Navigation',
+        'MSBios\Theme',
+        'MSBios\Widget',
+        'MSBios\View',
+        'MSBios\Assetic',
+        'MSBios\I18n',
+        'MSBios\Application',
         'MSBios\Authentication',
         'MSBios\Authentication\Doctrine',
     ],
