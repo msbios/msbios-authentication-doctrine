@@ -8,6 +8,7 @@
 return [
     // Retrieve list of modules used in this application.
     'modules' => [
+        'Zend\Serializer',
         'Zend\Mvc\Plugin\FilePrg',
         'Zend\Mvc\Plugin\FlashMessenger',
         'Zend\Mvc\Plugin\Identity',
@@ -20,6 +21,8 @@ return [
         'DoctrineModule',
         'DoctrineORMModule',
 
+        'MSBios\Cache',
+        'MSBios\Form',
         'MSBios\Navigation',
         'MSBios\Theme',
         'MSBios\Widget',

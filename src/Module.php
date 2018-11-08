@@ -15,13 +15,10 @@ use Zend\Loader\StandardAutoloader;
  * Class Module
  * @package MSBios\Authentication\Doctrine
  */
-class Module implements
-    ModuleInterface,
-    ModuleAwareInterface,
-    AutoloaderAwareInterface
+class Module implements ModuleInterface, ModuleAwareInterface, AutoloaderAwareInterface
 {
     /** @const VERSION */
-    const VERSION = '1.0.4';
+    const VERSION = '1.0.5';
 
     /**
      * @return mixed
