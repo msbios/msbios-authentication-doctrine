@@ -82,6 +82,43 @@
       <path value="$PROJECT_DIR$/vendor/msbios/authentication" />
       <path value="$PROJECT_DIR$/vendor/msbios/json" />
       <path value="$PROJECT_DIR$/vendor/msbios/doctrine" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc-plugin-flashmessenger" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-i18n" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-serializer" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-component-installer" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc-plugin-fileprg" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-navigation" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc-plugin-prg" />
+      <path value="$PROJECT_DIR$/vendor/msbios/cache" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-session" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc-plugin-identity" />
+      <path value="$PROJECT_DIR$/vendor/msbios/i18n" />
+      <path value="$PROJECT_DIR$/vendor/msbios/theme" />
+      <path value="$PROJECT_DIR$/vendor/msbios/form" />
+      <path value="$PROJECT_DIR$/vendor/msbios/navigation" />
+      <path value="$PROJECT_DIR$/vendor/msbios/view" />
+      <path value="$PROJECT_DIR$/vendor/msbios/assetic" />
+      <path value="$PROJECT_DIR$/vendor/msbios/widget" />
+      <path value="$PROJECT_DIR$/vendor/msbios/application" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/kriswallsmith/assetic" />
+      <path value="$PROJECT_DIR$/vendor/linkorb/jsmin-php" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/patchwork/utf8" />
+      <path value="$PROJECT_DIR$/vendor/pdepend/pdepend" />
+      <path value="$PROJECT_DIR$/vendor/phpmd/phpmd" />
     </include_path>
   </component>
 </project>
